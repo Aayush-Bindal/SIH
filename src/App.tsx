@@ -101,8 +101,8 @@ export default function App() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
             >
-              <div className="w-7 h-7 rounded-[6px] bg-[#171717] flex items-center justify-center text-white shrink-0 shadow-xs">
-                <Box className="w-3.5 h-3.5 text-white" />
+              <div className="w-7 h-7 rounded-[6px] overflow-hidden flex items-center justify-center shrink-0 shadow-xs">
+                <img src="/logo.png" alt="Bhu-Drishti logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex items-baseline gap-1.5">
                 <span className="text-[15px] font-medium font-['Geist'] text-[#171717] tracking-tight">
@@ -160,6 +160,7 @@ export default function App() {
                 <div className="h-4 w-px bg-[#e5e7eb] hidden sm:block" />
 
                 <div className="flex items-center gap-1.5">
+                  <img src="/logo.png" alt="Bhu-Drishti logo" className="w-6 h-6 object-cover" />
                   <span className="font-medium font-['Geist'] text-[14px] text-[#171717]">
                     Bhu-Drishti 3D
                   </span>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Bhu-Drishti 3D logo mark</title>
+  <desc>Minimal black isometric logo showing a city layer above a cadastral parcel and terrain layer.</desc>
+
+  <!-- Upper urban / building layer -->
+  <g fill="#111111">
+    <!-- isometric city base -->
+    <path d="M256 105 L385 176 L256 248 L127 176 Z"/>
+    <!-- buildings -->
+    <path d="M154 165 L154 119 L178 105 L178 179 Z"/>
+    <path d="M190 184 L190 92 L216 77 L216 169 Z"/>
+    <path d="M229 205 L229 58 L257 42 L257 189 Z"/>
+    <path d="M269 183 L269 91 L296 75 L296 168 Z"/>
+    <path d="M308 162 L308 112 L333 98 L333 148 Z"/>
+    <path d="M345 142 L345 122 L365 111 L365 131 Z"/>
+  </g>
+
+  <!-- White separation / vertical ownership cue -->
+  <path d="M256 105 L256 248" fill="none" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- Cadastral parcel layer -->
+  <path d="M256 269 L385 340 L256 411 L127 340 Z"
+        fill="none" stroke="#111111" stroke-width="7"
+        stroke-linejoin="round" stroke-dasharray="14 12"/>
+  <path d="M127 340 L127 363 L256 434 L385 363 L385 340"
+        fill="none" stroke="#111111" stroke-width="7"
+        stroke-linejoin="round" stroke-dasharray="14 12"/>
+
+  <!-- Terrain / subsurface layer -->
+  <path d="M256 374 L385 445 L256 516 L127 445 Z" fill="#111111"/>
+  <path d="M154 441
+           C178 425 201 431 222 443
+           C244 456 264 460 286 447
+           C309 434 329 435 354 447"
+        fill="none" stroke="#ffffff" stroke-width="5"
+        stroke-linecap="round"/>
+  <path d="M174 453
+           C195 442 213 447 232 457
+           C251 467 270 469 290 458
+           C309 448 327 449 344 456"
+        fill="none" stroke="#ffffff" stroke-width="3"
+        stroke-linecap="round" opacity="0.9"/>
+</svg>
